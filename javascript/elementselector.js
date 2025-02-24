@@ -1,10 +1,13 @@
 // single element selector
 
-// get element by element
+//1 get element by id
+
 // let x = document.getElementById('elemetselector');
 // x.style.color = 'green';
+
+
 // x = x.className;
-// x=x.childNodes;
+
 // x.innerText = "element selector text changing";
 // x.innerHTML='<b>heading1</b>'
 // console.log(x);
