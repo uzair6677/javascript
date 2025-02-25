@@ -32,3 +32,5 @@ class Bike extends car{
 }
 const bike1=new Bike('suzuki',2022,222)
 const car1=new car('bmw','2022');
+console.log(bike1);
+console.log(car1);
