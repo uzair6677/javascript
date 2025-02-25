@@ -4,13 +4,14 @@ function Motorcycle() {
     this.model = 'Ninja';
 }
 
-// Adding a method to the prototype
-Motorcycle.prototype.motoGP = function() {
-    console.log('Always wear a helmet while riding bikes.');
-};
+// // Adding a method to the prototype
+// Motorcycle.prototype.motoGP = function() {
+//     console.log('Always wear a helmet while riding bikes.');
+// };
 
 // Creating an instance of Motorcycle
 let bikes = new Motorcycle();
+
 
 console.log(bikes.toString());        // Calls the default Object.prototype.toString()
 console.log(bikes.valueOf());         // Calls the default Object.prototype.valueOf()
